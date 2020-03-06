@@ -6,15 +6,19 @@ body {
   font-family: "Open Sans",
   sans-serif; 
   font-size: 20px;
-  color: #444;
+  color: black;
   text-align: center;
   line-height: 1.5;
+}
+
+p {
+  font-size: 15px;
 }
 
 nav,
 footer {
   padding: 1% 0;
-  background-color: #aaa;
+  background-color: green;
 }
 
 nav {
@@ -28,6 +32,11 @@ nav {
   justify-content: space-between;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+nav > span {
+  color: white;
+  font-weight: 900;
 }
 
 header {
@@ -47,11 +56,11 @@ h1 {
 section {
   min-height: 200px;
   padding: 6% 0;
-  background-color: #bbb;
+  background-color: white;
 }
 
 section:nth-child(even) {
-  background-color: #ddd;
+  background-color: white;
 }
 
 #bio-content {
@@ -74,5 +83,10 @@ section:nth-child(even) {
   #details, #my-projects {
     width: 50%;
   }
+
+  p {
+    font-size: 25px;
+  }
+  
 
 }
