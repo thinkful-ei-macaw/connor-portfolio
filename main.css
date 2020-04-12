@@ -105,6 +105,10 @@ section:nth-child(even) {
   padding-right: 25px;
 }
 
+.image-holder {
+  padding: 0px !important;
+}
+
 .stack-item-list {
   display: flex;
   flex-direction: row;
