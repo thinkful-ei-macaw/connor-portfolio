@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+#container {
+  padding-top: 50px;
+}
+
 body {
   font-family: "Open Sans",
   sans-serif; 
@@ -19,6 +23,7 @@ nav,
 footer {
   padding: 1% 0;
   background-color: green;
+  color: white;
 }
 
 nav {
@@ -37,6 +42,12 @@ nav {
 nav > span {
   color: white;
   font-weight: 900;
+  font-size: 30px;
+}
+
+nav div i {
+  font-size: 20x;
+  color: white;
 }
 
 header {
@@ -48,14 +59,22 @@ header {
   padding-top: 50px;
 }
 
+.image-holder {
+  margin-bottom: 0px;
+}
+
 h1 {
   margin-top: auto;
   margin-bottom: auto;
 }
 
+h2 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
 section {
   min-height: 200px;
-  padding: 6% 0;
   background-color: white;
 }
 
@@ -63,9 +82,22 @@ section:nth-child(even) {
   background-color: white;
 }
 
+#contact-info p i {
+  color: green; 
+}
+
 #bio-content {
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom: 25px;
+}
+
+.stack-item-name {
+  font-size: 12px;
+}
+
+.fab, .fas {
+  font-size: 50px;
 }
 
 /* TABLET */
@@ -82,6 +114,10 @@ section:nth-child(even) {
 
   #details, #my-projects {
     width: 50%;
+  }
+  
+  h2 {
+    margin-top: 50px;
   }
 
   p {
